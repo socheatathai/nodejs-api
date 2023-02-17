@@ -6,10 +6,10 @@ const mysql = require("mysql");
 //     password :""
 // })
 const database = mysql.createConnection({
-    host : "bqre6fwkshoqmqvnkrfc-mysql.services.clever-cloud.com",
-    database : "bqre6fwkshoqmqvnkrfc",
-    user : "uhljnppe8u1tcubk",
-    password :"uhljnppe8u1tcubk"
+    host : "bn656ecofjplzmvalpld-mysql.services.clever-cloud.com",
+    database : "bn656ecofjplzmvalpld",
+    user : "urjmwst60uax04ss",
+    password :"urjmwst60uax04ss"
 })
 database.connect();
 module.exports = database;
